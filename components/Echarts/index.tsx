@@ -40,7 +40,7 @@ echarts.use([
   CanvasRenderer
 ]);
 import { useRef, useEffect, useState } from 'react';
-import { formatColor, formatApi } from '../util';
+import { formatColor, formatApi } from '@/bailu/components/util';
 interface EchartsProp {
   attribute: Record<string, any>
   api: Record<string, any>

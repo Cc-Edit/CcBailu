@@ -1,5 +1,5 @@
-import { AttributeItem, ComponentConfig } from '../../../types';
-import { commonConfig } from '../../../baseConfig/common';
+import { AttributeItem, ComponentConfig } from '@/types';
+import { commonConfig } from '@/bailu/baseConfig/common';
 // 基础配置
 const defaultConfig:ComponentConfig = {
   stickyRows: [0],

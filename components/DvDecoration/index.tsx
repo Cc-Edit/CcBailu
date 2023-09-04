@@ -1,6 +1,6 @@
 // @ts-ignore
 import { Decoration1, Decoration2, Decoration3, Decoration4, Decoration5, Decoration6, Decoration7, Decoration8, Decoration9, Decoration10, Decoration11 } from '@jiaminghi/data-view-react';
-import { formatColor } from '../util';
+import { formatColor } from '@/bailu/components/util';
 interface DvProp {
   [key: string]: any
 }

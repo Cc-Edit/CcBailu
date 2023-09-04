@@ -1,7 +1,8 @@
 // @ts-ignore
 import { DigitalFlop } from '@jiaminghi/data-view-react';
-import { formatColor, delay } from '../util';
+import { formatColor } from '@/bailu/components/util';
 import { useState, useEffect } from 'react';
+import { delay } from '@/utils/common';
 interface DvProp {
   [key: string]: any
 }

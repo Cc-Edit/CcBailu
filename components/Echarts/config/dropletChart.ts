@@ -1,7 +1,7 @@
-import { ComponentConfig } from '../../../types';
-import { commonConfig } from '../../../baseConfig/common';
-import { titleSimple, titleComplex } from '../../../baseConfig/Echarts/titleConfig';
-import { dropletSimple } from '../../../baseConfig/Echarts/dropletConfig';
+import { ComponentConfig } from '@/types';
+import { commonConfig } from '@/bailu/baseConfig/common';
+import { titleSimple, titleComplex } from '@/bailu/baseConfig/Echarts/titleConfig';
+import { dropletSimple } from '@/bailu/baseConfig/Echarts/dropletConfig';
 // 基础柱状图配置
 const defaultConfig:ComponentConfig = {
   stickyRows: [0],

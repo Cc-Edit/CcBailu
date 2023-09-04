@@ -1,6 +1,6 @@
 // @ts-ignore
 import { ScrollBoard } from '@jiaminghi/data-view-react';
-import { formatColor } from '../util';
+import { formatColor } from '@/bailu/components/util';
 interface DvProp {
   [key: string]: any
 }
