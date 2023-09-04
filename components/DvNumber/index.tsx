@@ -2,7 +2,7 @@
 import { DigitalFlop } from '@jiaminghi/data-view-react';
 import { formatColor } from '@/bailu/components/util';
 import { useState, useEffect } from 'react';
-import { delay } from '@/utils/common';
+import { delay } from '@/components/util';
 interface DvProp {
   [key: string]: any
 }

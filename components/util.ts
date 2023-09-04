@@ -134,3 +134,9 @@ export function formatApi(option: Record<string, any>, api: Record<string, any>)
     return formatLineAndBar(option, api);
   }
 }
+// 延时器
+export function delay(time: number) {
+  return new Promise(resolve => {
+    (typeof window === 'undefined' ? global : window).setTimeout(resolve, time);
+  });
+}

@@ -1,0 +1,17 @@
+{
+  "name": "CcBailu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Cc-Edit/CcBailu.git",
+  "author": "ccedit <ccedit@126.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@jiaminghi/data-view-react": "1.2.5",
+    "@mui/material": "5.13.4",
+    "typescript": "5.1.3",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.4",
+    "echarts": "5.4.3",
+    "echarts-liquidfill": "^3.1.0"
+  }
+}
