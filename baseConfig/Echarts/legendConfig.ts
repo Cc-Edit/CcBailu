@@ -1,4 +1,4 @@
-import { AttributeItem } from '@/types';
+import { AttributeItem } from '@/bailu/types';
 import { getTextStyle } from '@/bailu/baseConfig/textStyle';
 // 基础柱状图配置
 const { textStyleComplex, textStyleSimple } = getTextStyle('options.legend');

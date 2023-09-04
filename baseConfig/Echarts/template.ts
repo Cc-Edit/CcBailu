@@ -1,4 +1,4 @@
-import { AttributeItem } from '@/types';
+import { AttributeItem } from '@/bailu/types';
 // 基础柱状图配置
 // 基础设置
 const baseConfig: AttributeItem[][] = [

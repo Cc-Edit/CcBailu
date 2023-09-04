@@ -1,4 +1,4 @@
-import { AttributeItem } from '@/types';
+import { AttributeItem } from '@/bailu/types';
 // 公共配置提取
 // 基础设置
 export const commonConfig: AttributeItem[][] = [
