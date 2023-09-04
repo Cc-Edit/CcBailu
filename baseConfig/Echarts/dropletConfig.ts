@@ -1,4 +1,4 @@
-import { AttributeItem } from '@/bailu/types';
+import { AttributeItem } from '../../types';
 // 基础设置
 export const dropletSimple: AttributeItem[][] = [
   [

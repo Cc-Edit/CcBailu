@@ -1,4 +1,4 @@
-import { AttributeItem, ComponentConfig } from '@/bailu/types';
+import { AttributeItem, ComponentConfig } from '../../../types';
 import { commonConfig } from '../../../baseConfig/common';
 // 基础配置
 const defaultConfig:ComponentConfig = {

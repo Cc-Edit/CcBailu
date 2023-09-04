@@ -1,11 +1,11 @@
-import { ComponentConfig } from '@/bailu/types';
+import { ComponentConfig } from '../../../types';
 import { commonConfig } from '../../../baseConfig/common';
-import { titleSimple, titleComplex } from '@/bailu/baseConfig/Echarts/titleConfig';
-import { legendComplex, legendSimple } from '@/bailu/baseConfig/Echarts/legendConfig';
-import { gridComplex, gridSimple } from '@/bailu/baseConfig/Echarts/gridConfig';
-import { tooltipComplex, tooltipSimple } from '@/bailu/baseConfig/Echarts/tooltipConfig';
-import { toolboxComplex, toolboxSimple } from '@/bailu/baseConfig/Echarts/toolboxConfig';
-import { seriesSimple } from '@/bailu/baseConfig/Echarts/lineSeriesConfig';
+import { titleSimple, titleComplex } from '../../../baseConfig/Echarts/titleConfig';
+import { legendComplex, legendSimple } from '../../../baseConfig/Echarts/legendConfig';
+import { gridComplex, gridSimple } from '../../../baseConfig/Echarts/gridConfig';
+import { tooltipComplex, tooltipSimple } from '../../../baseConfig/Echarts/tooltipConfig';
+import { toolboxComplex, toolboxSimple } from '../../../baseConfig/Echarts/toolboxConfig';
+import { seriesSimple } from '../../../baseConfig/Echarts/lineSeriesConfig';
 // 基础柱状图配置
 const defaultConfig:ComponentConfig = {
   stickyRows: [0],

@@ -1,4 +1,4 @@
-import { ComponentConfig } from '@/bailu/types';
+import { ComponentConfig } from '../../../types';
 import { commonConfig } from '../../../baseConfig/common';
 // 基础按钮配置
 const defaultConfig:ComponentConfig = {
