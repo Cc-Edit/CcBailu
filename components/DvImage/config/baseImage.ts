@@ -74,7 +74,7 @@ const defaultConfig:ComponentConfig = {
                               placeholder: '请输入图片提示'
                             }
                           }
-                        ],
+                        ]
                       ]
                     }
                   }
