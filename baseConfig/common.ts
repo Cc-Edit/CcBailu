@@ -78,6 +78,40 @@ export const commonConfig: AttributeItem[][] = [
             {
               type: 'Text',
               props: {
+                text: '层级'
+              }
+            },
+            {
+              type: 'Slider',
+              mapping: {
+                key: 'position.z'
+              },
+              props: {
+                className: 'flex-1 pl-1 pr-1',
+                min: 0,
+                max: 99,
+                defaultValue: 1,
+                step: 1
+              }
+            },
+            {
+              type: 'Number',
+              mapping: {
+                key: 'position.z'
+              },
+              props: {
+                className: 'w-20 pl-1 pr-1',
+                min: 0,
+                max: 99,
+                defaultValue: 1,
+                endAdornment: 'Z'
+              }
+            }
+          ],
+          [
+            {
+              type: 'Text',
+              props: {
                 text: '旋转角度'
               }
             },
