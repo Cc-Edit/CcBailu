@@ -1,6 +1,6 @@
 // @ts-ignore
 import { WaterLevelPond } from '@jiaminghi/data-view-react';
-import { formatColor } from '@/bailu/components/util';
+import { formatColor } from '../util';
 interface DvProp {
   [key: string]: any
 }

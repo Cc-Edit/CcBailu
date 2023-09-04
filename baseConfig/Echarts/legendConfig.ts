@@ -1,5 +1,5 @@
 import { AttributeItem } from '../../types';
-import { getTextStyle } from '@/bailu/baseConfig/textStyle';
+import { getTextStyle } from '../textStyle';
 // 基础柱状图配置
 const { textStyleComplex, textStyleSimple } = getTextStyle('options.legend');
 // 基础设置
