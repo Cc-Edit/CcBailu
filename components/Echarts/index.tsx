@@ -54,7 +54,7 @@ export default function Echarts({ attribute, api, event }: EchartsProp) {
   const chartOption = formatColor(mergeApiOption);
   const chartEle = useRef<HTMLDivElement>(null);
   const [myChart, setMyChart] = useState<echarts.ECharts | null>();
-
+  console.log(chartOption);
   useEffect(() => {
     myChart?.resize({
       width,
