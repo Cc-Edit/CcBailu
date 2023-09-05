@@ -12,5 +12,5 @@ export default function DvBorderBox({ attribute = {}, api = {}, event = [] }: Dv
   const { type, ...otherProp } = options;
   const formatOptions = formatColor(otherProp) as Record<string, any>;
   const BorderBoxItem = BorderBoxMap[type];
-  return <BorderBoxItem {...formatOptions}></BorderBoxItem>;
+  return <BorderBoxItem key={new Date().getTime()} {...formatOptions}></BorderBoxItem>;
 }
